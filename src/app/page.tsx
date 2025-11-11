@@ -7,8 +7,6 @@ export default function HomePeage() {
       <h1 className="text-3x1 font-bold">WebDev Topics</h1>
       <p className="mb-4">MongoDB CRUD example</p>
       <TopicsList />
-      <TopicsList />
-      <TopicsList />
     </div>
   )
 }
