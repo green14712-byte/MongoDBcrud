@@ -2,7 +2,7 @@ import connectMongoDB from '@/libs/mongodb'
 import Topic from '@/models/topic'
 import { NextRequest, NextResponse } from 'next/server'
 
-// ✅ interface 버전 (당신 스타일)
+// ✅ interface 버전
 interface ParamsPromise {
   params: Promise<{ id: string }>
 }
